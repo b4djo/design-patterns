@@ -1,8 +1,15 @@
 <?php
-//http://i-novice.net/shablon-proektirovaniya-fabrika/
-require_once __DIR__ . '/CarFactory.php';
-require_once __DIR__ . '/Car.php';
-require_once __DIR__ . '/Mazda3.php';
+// http://i-novice.net/shablon-proektirovaniya-fabrika/
+// https://habrahabr.ru/sandbox/19322/
+
+// Autoloader classes
+require __DIR__ . '/../../app/AutoLoader.php';
+$autoloader = new \app\lib\AutoLoader();
+$autoloader->addNamespace('DesignPatterns\\Creational\\SimpleFactory', realpath(__DIR__));
+$autoloader->register();
 
 $carFactory = new \DesignPatterns\Creational\SimpleFactory\CarFactory();
-$car = $carFactory->createCar('Mazda3');
+$car = $carFactory->createCar('DesignPatterns\Creational\SimpleFactory\Mazda');
+$car->buildEngine();
+$car->attachWheels();
+$car->testDrive();

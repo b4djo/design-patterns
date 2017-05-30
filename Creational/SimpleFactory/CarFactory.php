@@ -13,6 +13,6 @@ class CarFactory
 {
     public function createCar($model)
     {
-        return new Mazda3();
+        return new $model();
     }
 }
