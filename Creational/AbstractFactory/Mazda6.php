@@ -3,15 +3,13 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Class Model
+ * Class Model6
  * @package DesignPatterns\Creational\AbstractFactory
  */
-abstract class Mazda6
+class Mazda6 extends Car
 {
-    private $model;
-
-    public function __construct(string $model)
-    {
-        $this->model = $model;
-    }
+    /**
+     * @var string
+     */
+    public $model = 'Mazda6';
 }

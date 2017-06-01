@@ -1,20 +1,20 @@
 <?php
 /**
- * Конкретная фабрика для автомобилей марки "Mazda"
+ * Конкретная фабрика для автомобилей марки "Toyota"
  */
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Class MazdaFactory
+ * Class ToyotaFactory
  * @package DesignPatterns\Creational\AbstractFactory
  */
-class MazdaFactory extends AbstractFactory
+class ToyotaFactory extends AbstractFactory
 {
     /**
-     * Произвести автомобиль
+     * Покрасить автомобиль
      * @param string $model
-     * @return Car|false
+     * @return Car
      */
     public function makeCar(string $model): Car
     {

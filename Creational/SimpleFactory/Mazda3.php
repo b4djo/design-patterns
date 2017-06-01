@@ -6,7 +6,7 @@ namespace DesignPatterns\Creational\SimpleFactory;
  * Class Mazda
  * @package DesignPatterns\Creational\SimpleFactory
  */
-class Mazda extends Car implements Conveyer
+class Mazda3 implements Conveyer
 {
     /**
      * Сборка двигателя

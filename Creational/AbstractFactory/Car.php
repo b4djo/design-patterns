@@ -8,12 +8,27 @@ namespace DesignPatterns\Creational\AbstractFactory;
  */
 abstract class Car
 {
-    private $modelName;
+    /**
+     * @var string
+     */
+    private $model;
+
+    /**
+     * @var string
+     */
     private $color;
+
+    /**
+     * @var string
+     */
     private $gasoline;
 
-    public function __construct(string $model)
+    /**
+     * Покраска автомобиля
+     * @param $color
+     */
+    public function setColor($color)
     {
-        $this->model = $model;
+        $this->color = $color;
     }
 }

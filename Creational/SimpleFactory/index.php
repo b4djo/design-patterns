@@ -9,7 +9,7 @@ $autoloader->addNamespace('DesignPatterns\\Creational\\SimpleFactory', realpath(
 $autoloader->register();
 
 $carFactory = new \DesignPatterns\Creational\SimpleFactory\CarFactory();
-$car = $carFactory->createCar('DesignPatterns\Creational\SimpleFactory\Mazda');
+$car = $carFactory->createCar('DesignPatterns\Creational\SimpleFactory\Mazda3');
 $car->buildEngine();
 $car->attachWheels();
 $car->testDrive();
