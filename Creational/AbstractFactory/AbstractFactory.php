@@ -2,7 +2,7 @@
 /**
  * Design pattern: Abstract Factory
  * Производство автомобилей
- * http://dron.by/post/pattern-proektirovaniya-abstract-factory-abstraktnaya-fabrika-na-php.html
+ * @see http://dron.by/post/pattern-proektirovaniya-abstract-factory-abstraktnaya-fabrika-na-php.html
  */
 
 namespace DesignPatterns\Creational\AbstractFactory;
