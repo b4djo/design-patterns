@@ -2,7 +2,6 @@
 
 namespace DesignPatterns\Creational\Builder;
 
-
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 class Director

@@ -2,7 +2,10 @@
 
 namespace DesignPatterns\Creational\Builder\Parts;
 
-
+/**
+ * Class Vehicle
+ * @package DesignPatterns\Creational\Builder\Parts
+ */
 abstract class Vehicle
 {
     /**

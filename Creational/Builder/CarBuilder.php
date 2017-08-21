@@ -2,13 +2,23 @@
 
 namespace DesignPatterns\Creational\Builder;
 
-
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
+/**
+ * Class CarBuilder
+ * @package DesignPatterns\Creational\Builder
+ */
 class CarBuilder implements BuilderInterface
 {
+    /**
+     * @var
+     */
     private $car;
 
+    /**
+     * Added wheels
+     * @return mixed
+     */
     public function addWheels()
     {
         $this->car->setPart('wheel1', new Parts\Wheel());
@@ -22,6 +32,10 @@ class CarBuilder implements BuilderInterface
         $this->car->setPart('carEngine', new Parts\Engine());
     }
 
+    /**
+     * Added doors
+     * @return mixed
+     */
     public function addDoors()
     {
         $this->car->setPart('rightDoor', new Parts\Door());
@@ -29,11 +43,19 @@ class CarBuilder implements BuilderInterface
         $this->car->setPart('trunkLid', new Parts\Door());
     }
 
+    /**
+     * Creating vehicle
+     * @return mixed
+     */
     public function createVehicle()
     {
         $this->car = new Parts\Car();
     }
 
+    /**
+     * Getting vehicle
+     * @return Vehicle
+     */
     public function getVehicle(): Vehicle
     {
         return $this->car;
