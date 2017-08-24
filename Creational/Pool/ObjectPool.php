@@ -6,7 +6,7 @@ namespace DesignPatterns\Creational\Pool;
  * Class ObjectPool
  * @package DesignPatterns\Creational\Pool
  */
-class ObjectPool
+class ObjectPool implements \Countable
 {
     /**
      * Занятые объекты
@@ -68,5 +68,13 @@ class ObjectPool
         }
 
         return null; // Нет свободных объектов
+    }
+
+    /**
+     * @return int
+     */
+    public function count(): int
+    {
+        return count($this->occupiedProducts) + count($this->freeProducts);
     }
 }
