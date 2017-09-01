@@ -6,12 +6,7 @@ use DesignPatterns\Structural\Facade\Entities\Product\Product;
 use DesignPatterns\Structural\Facade\Entities\Product\ProductId;
 use DesignPatterns\Structural\Facade\Entities\Product\Status;
 
-// Autoloader classes
-
-/*require __DIR__ . '/../../app/AutoLoader.php';
-$autoloader = new \app\lib\AutoLoader();
-$autoloader->addNamespace('DesignPatterns\\Structural\\Facade', realpath(__DIR__));
-$autoloader->register();*/
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
 $cart = new Cart();
 $product1 = new Product(
