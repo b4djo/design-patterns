@@ -1,0 +1,17 @@
+{
+  "name": "b4djo/design-patterns",
+  "description": "design-patterns",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Fatkhullin Robert",
+      "email": "fatkhullin.robert@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "app/"
+    }
+  }
+}

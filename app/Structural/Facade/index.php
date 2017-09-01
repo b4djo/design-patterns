@@ -8,10 +8,10 @@ use DesignPatterns\Structural\Facade\Entities\Product\Status;
 
 // Autoloader classes
 
-require __DIR__ . '/../../app/AutoLoader.php';
+/*require __DIR__ . '/../../app/AutoLoader.php';
 $autoloader = new \app\lib\AutoLoader();
 $autoloader->addNamespace('DesignPatterns\\Structural\\Facade', realpath(__DIR__));
-$autoloader->register();
+$autoloader->register();*/
 
 $cart = new Cart();
 $product1 = new Product(
