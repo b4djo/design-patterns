@@ -6,7 +6,8 @@ namespace app\lib;
  * Class AutoLoader
  * @package app\lib
  */
-class AutoLoader {
+class AutoLoader
+{
     
     /**
      * Ассоциативный массив
