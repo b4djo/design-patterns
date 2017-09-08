@@ -11,7 +11,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "DesignPatterns\\": "app/"
+      "DesignPatterns\\": "app/",
+      "DesignPatterns\\Tests\\": "tests/"
     }
   }
 }

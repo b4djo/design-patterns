@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\tests\Structural;
+namespace DesignPatterns\Tests\Structural;
 
 use DesignPatterns\app\Structural\FluentInterface\Sql;
 use PHPUnit\Framework\TestCase;

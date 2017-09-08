@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\tests\Structural;
+namespace DesignPatterns\Tests\Structural;
 
 use PHPUnit\Framework\TestCase;
 
