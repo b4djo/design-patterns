@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavioral\Memento;
+namespace DesignPatterns\Behavioral\Memento\example1;
 
 /**
  * Class State

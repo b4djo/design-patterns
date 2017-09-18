@@ -1,22 +1,22 @@
 <?php
 
-namespace Behavioral;
+namespace DesignPatterns\Tests\Behavioral\Memento;
 
-use DesignPatterns\Behavioral\Memento\State;
-use DesignPatterns\Behavioral\Memento\Ticket;
+use DesignPatterns\Behavioral\Memento\example1\State;
+use DesignPatterns\Behavioral\Memento\example1\Ticket;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class MementoTest
  * @package Behavioral
  */
-class MementoTest extends TestCase
+class Example1Test extends TestCase
 {
     public function __construct($name = null, array $data = [], $dataName = '')
     {
         parent::__construct($name, $data, $dataName);
 
-        require_once __DIR__ . '/../../vendor/autoload.php';
+        require_once __DIR__ . '/../../../vendor/autoload.php';
     }
 
     public function testOpenTicketAssignAndSetBackToOpen()
