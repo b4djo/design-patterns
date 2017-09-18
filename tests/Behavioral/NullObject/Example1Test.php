@@ -1,15 +1,15 @@
 <?php
 
-namespace DesignPatterns\Tests\Behavioral\example1;
+namespace DesignPatterns\Tests\Behavioral\NullObject;
 
 use DesignPatterns\Behavioral\NullObject\example1\UserFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class NullObjectTest
- * @package DesignPatterns\Tests\Behavioral\example1
+ * Class Example1Test
+ * @package DesignPatterns\Tests\Behavioral\NullObject
  */
-class NullObjectTest extends TestCase
+class Example1Test extends TestCase
 {
     public function testNullObject()
     {

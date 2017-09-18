@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Tests\Behavioral\example2;
+namespace DesignPatterns\Tests\Behavioral\NullObject;
 
 use DesignPatterns\Behavioral\NullObject\example2\NullLogger;
 use DesignPatterns\Behavioral\NullObject\example2\PrintLogger;
@@ -8,10 +8,10 @@ use DesignPatterns\Behavioral\NullObject\example2\Service;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class NullObjectTest
- * @package DesignPatterns\Tests\Behavioral\example2
+ * Class Example2Test
+ * @package DesignPatterns\Tests\Behavioral\NullObject
  */
-class NullObjectTest extends TestCase
+class Example2Test extends TestCase
 {
     public function testNullObject()
     {
