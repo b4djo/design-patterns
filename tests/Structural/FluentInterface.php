@@ -11,13 +11,6 @@ use PHPUnit\Framework\TestCase;
  */
 class FluentInterface extends TestCase
 {
-    public function __construct($name = null, array $data = [], $dataName = '')
-    {
-        parent::__construct($name, $data, $dataName);
-
-        require_once __DIR__ . '/../../vendor/autoload.php';
-    }
-
     public function testBuildSQL()
     {
         $query = (new Sql())

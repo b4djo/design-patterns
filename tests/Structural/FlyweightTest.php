@@ -5,21 +5,24 @@ namespace DesignPatterns\Tests\Structural;
 use DesignPatterns\Structural\Flyweight\FlyweightFactory;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class FlyweightTest
+ * @package DesignPatterns\Tests\Structural
+ */
 class FlyweightTest extends TestCase
 {
+    /**
+     * @var array
+     */
     private $characters = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
         'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
     ];
 
+    /**
+     * @var array
+     */
     private $fonts = ['Arial', 'Times New Roman', 'Verdana', 'Helvetica'];
-
-    public function __construct($name = null, array $data = [], $dataName = '')
-    {
-        parent::__construct($name, $data, $dataName);
-
-        require_once __DIR__ . '/../../vendor/autoload.php';
-    }
 
     public function testFlyweight()
     {

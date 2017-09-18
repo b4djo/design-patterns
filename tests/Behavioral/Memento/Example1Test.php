@@ -12,13 +12,6 @@ use PHPUnit\Framework\TestCase;
  */
 class Example1Test extends TestCase
 {
-    public function __construct($name = null, array $data = [], $dataName = '')
-    {
-        parent::__construct($name, $data, $dataName);
-
-        require_once __DIR__ . '/../../../vendor/autoload.php';
-    }
-
     public function testOpenTicketAssignAndSetBackToOpen()
     {
         $ticket = new Ticket();

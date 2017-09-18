@@ -6,15 +6,12 @@ use DesignPatterns\Structural\Registry\Registry;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 
+/**
+ * Class RegistryTest
+ * @package DesignPatterns\Tests\Structural
+ */
 class RegistryTest extends TestCase
 {
-    public function __construct($name = null, array $data = [], $dataName = '')
-    {
-        parent::__construct($name, $data, $dataName);
-
-        require_once __DIR__ . '/../../vendor/autoload.php';
-    }
-
     public function testSetAndGetLogger()
     {
         $key = Registry::LOGGER;
