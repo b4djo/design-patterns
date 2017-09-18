@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
  */
 class Example2Test extends TestCase
 {
-    public function testOpenTicketAssignAndSetBackToOpen()
+    public function testEqualsContentAndGetRestoreState()
     {
         $editor = new Editor();
 
