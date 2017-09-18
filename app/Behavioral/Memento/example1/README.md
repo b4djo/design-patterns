@@ -1,0 +1,1 @@
+http://designpatternsphp.readthedocs.io/ru/latest/Behavioral/Memento/README.html
