@@ -2,8 +2,6 @@
 
 namespace DesignPatterns\Behavioral\State\example2;
 
-use DesignPatterns\Behavioral\State\example2\BookTitleStateInterface;
-
 /**
  * Class BookTitleStateStars
  * @package DesignPatterns\Behavioral\State\example2
