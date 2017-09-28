@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Creational\Singleton;
+namespace DesignPatterns\Creational\Singleton\example1;
 
 /**
  * Class Singleton
- * @package DesignPatterns\Creational\Singleton
+ * @package DesignPatterns\Creational\Singleton\example1
  */
 final class Singleton
 {

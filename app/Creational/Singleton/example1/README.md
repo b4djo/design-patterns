@@ -11,3 +11,7 @@
 - DB Connector для подключения к базе данных
 - Logger (также может быть Multiton если есть много журналов для нескольких целей)
 - Блокировка файла в приложении (есть только один в файловой системе с одновременным доступом к нему)
+
+**Links**
+
+1. http://lifeexample.ru/php-primeryi-skriptov/php-singleton-singlton.html
