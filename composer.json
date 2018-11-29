@@ -14,5 +14,8 @@
       "DesignPatterns\\": "app/",
       "DesignPatterns\\Tests\\": "tests/"
     }
+  },
+  "require": {
+    "phpunit/phpunit": "^7.4"
   }
 }
