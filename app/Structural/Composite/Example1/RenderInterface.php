@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Composite;
+namespace DesignPatterns\Structural\Composite\Example1;
 
 /**
  * Interface RenderInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Composite;
+namespace DesignPatterns\Structural\Composite\Example1;
 
 /**
  * Class SelectElement
@@ -13,6 +13,9 @@ class SelectElement implements RenderInterface
      */
     private $options;
 
+    /**
+     * @return string
+     */
     public function render(): string
     {
         $select = '<select>';
@@ -26,6 +29,9 @@ class SelectElement implements RenderInterface
         return $select;
     }
 
+    /**
+     * @param RenderInterface $option
+     */
     public function addOption(RenderInterface $option)
     {
         $this->options[] = $option;

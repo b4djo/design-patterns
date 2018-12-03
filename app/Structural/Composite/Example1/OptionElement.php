@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Composite;
+namespace DesignPatterns\Structural\Composite\Example1;
 
 /**
  * Class OptionElement
@@ -29,6 +29,9 @@ class OptionElement implements RenderInterface
         $this->text = $text;
     }
 
+    /**
+     * @return string
+     */
     public function render(): string
     {
         return '<option value="' . $this->value . '">' . $this->text . '</option>';
