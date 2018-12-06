@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Proxy;
+namespace DesignPatterns\Structural\Proxy\Example1;
 
 /**
  * Class ApartmentDoor
@@ -8,11 +8,17 @@ namespace DesignPatterns\Structural\Proxy;
  */
 class ApartmentDoor implements Door
 {
+    /**
+     * {@inheritdoc}
+     */
     public function open()
     {
         return 'Door apartment is opened';
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function close()
     {
         return 'Door apartment is closed';

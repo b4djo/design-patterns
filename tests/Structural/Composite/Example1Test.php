@@ -13,7 +13,6 @@ class Example1Test extends TestCase
 {
     public function testRender()
     {
-
         $form = new Composite\Example1\Form();
         $form->addElement(new Composite\Example1\TextElement('Email:'));
         $form->addElement(new Composite\Example1\InputElement());

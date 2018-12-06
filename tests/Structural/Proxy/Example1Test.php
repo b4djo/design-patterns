@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignPatterns\Tests\Structural;
+namespace DesignPatterns\Tests\Structural\Proxy;
 
-use DesignPatterns\Structural\Proxy\ApartmentDoor;
-use DesignPatterns\Structural\Proxy\Security;
+use DesignPatterns\Structural\Proxy\Example1\ApartmentDoor;
+use DesignPatterns\Structural\Proxy\Example1\Security;
 use PHPUnit\Framework\TestCase;
 
 /**
