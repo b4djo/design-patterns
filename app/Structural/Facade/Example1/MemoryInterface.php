@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\app\Structural\Facade;
+namespace DesignPatterns\app\Structural\Facade\Example1;
 
 /**
  * Interface MemoryInterface
