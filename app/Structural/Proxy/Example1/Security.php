@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Proxy;
+namespace DesignPatterns\Structural\Proxy\Example1;
 
 /**
  * Class Security

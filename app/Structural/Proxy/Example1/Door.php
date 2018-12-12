@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\Proxy;
+namespace DesignPatterns\Structural\Proxy\Example1;
 
 /**
  * Interface Door
@@ -8,6 +8,13 @@ namespace DesignPatterns\Structural\Proxy;
  */
 interface Door
 {
+    /**
+     * @return string
+     */
     public function open();
+
+    /**
+     * @return string
+     */
     public function close();
 }
