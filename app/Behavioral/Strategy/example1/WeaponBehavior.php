@@ -11,5 +11,5 @@ interface WeaponBehavior
     /**
      * @return int
      */
-    public function damage()/*: int*/;
+    public function damage(): int;
 }
